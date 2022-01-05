@@ -1,0 +1,38 @@
+*{
+    /* border: 1px solid white; */
+    color: white;
+    /* /* font-family: 'Island Moments', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    padding: 0px 10px;
+    background-color: gray;
+}
+
+.nav-title {
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links > li {
+    padding: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 0px;
+    background-color: darkcyan;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
